@@ -11,7 +11,7 @@
 	{% if value.cities %}
 	<UL>
 	  {% for city in value.cities | sort(attribute='name') %}
-	  <LI>{{- city.id}}: {{city.name -}}</li>
+	  <LI>{{- city.id}}: <B>{{city.name -}}</B></li>
 	  {% endfor %}
 	</UL>
 	{% endif %}

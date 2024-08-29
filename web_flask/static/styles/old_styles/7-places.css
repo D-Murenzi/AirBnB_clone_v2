@@ -1,0 +1,27 @@
+/*This is css article for places.*/
+
+article li {
+    font-size:30px;
+    text-align:center;
+    padding:20px;
+    text-indent:0px;
+    width:390px;
+    margin:20px;
+    border:1px solid #FF5A5F;
+    border-radius:4px;
+}
+
+section.places {
+    border:1px solid blue;
+    text-align:left;
+    font-size:30px;
+}
+
+section.places h2 ul {
+    display:flex;
+    flex-direction:horizontal;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+
